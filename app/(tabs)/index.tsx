@@ -21,6 +21,8 @@ export default function HomeScreen() {
         <Button title="Exercício 02" onPress={() => router.push('/tela02')} />
         <Button title="Exercício 03" onPress={() => router.push('/tela03')} />
         <Button title="Exercício 04" onPress={() => router.push('/tela04')} />
+        <Button title="Exercício 05" onPress={() => router.push('/tela05')} />
+        <Button title="Exercício 06" onPress={() => router.push('/tela05')} />
     </ParallaxScrollView>
   );
 }
