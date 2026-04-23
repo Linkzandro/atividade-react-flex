@@ -13,18 +13,19 @@ export default function Tela05() {
       <View style={styles.grid}>
 
         <View style={styles.row}>
-            <View style={styles.card} />
-            <View style={styles.card} />
+            <View style={styles.card} ><View style={styles.innerCard} /></View>
+            <View style={styles.card} ><View style={styles.innerCard} /></View>
+
         </View>
 
         <View style={styles.row}>
-            <View style={styles.card} />
-            <View style={styles.card} />
+            <View style={styles.card} ><View style={styles.innerCard} /></View>
+            <View style={styles.card} ><View style={styles.innerCard} /></View>
         </View>
 
         <View style={styles.row}>
-            <View style={styles.card} />
-            <View style={styles.card} />
+            <View style={styles.card} ><View style={styles.innerCard} /></View>
+            <View style={styles.card} ><View style={styles.innerCard} /></View>
         </View>
 
     </View>

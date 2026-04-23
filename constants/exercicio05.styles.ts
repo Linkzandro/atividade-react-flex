@@ -39,6 +39,12 @@ export const styles = StyleSheet.create({
   card: {
     flex: 1,
     aspectRatio: 1,
+    backgroundColor: colors.cardBg,
+    borderRadius: radius.lg,
+    padding:spacing.lg,
+  },
+  innerCard:{
+    flex:1,
     backgroundColor: colors.dark,
     borderRadius: radius.lg,
   },
