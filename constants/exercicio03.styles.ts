@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: colors.background,
     paddingHorizontal: spacing.lg,
-    paddingTop: spacing.xxl,
+    paddingTop: spacing.md,
     paddingBottom: spacing.xl,
     gap: spacing.xl,
   },
